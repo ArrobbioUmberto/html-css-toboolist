@@ -42,6 +42,7 @@ main{
 }
 
 /* prima parte dei bottoni colorati  */
+
 .blue{
     background-color: rgb(134, 134, 248);
     
@@ -64,8 +65,57 @@ main{
     border-radius: 10px;
     border: 1px solid antiquewhite;
 }
+
+
+/* seconda parte con le liste  */
+
+li{
+    text-decoration: none;
+    padding: 5px;
+    display:block;
+}
+span{
+    vertical-align: middle;
+}
+.false{
+    color: red;
+}
 .true{
+    border: 2px solid green;
     color: green;
-    border: 1px solid green;
-    border-radius: 5px;
+    border-radius:5px; ;
+}
+
+/* sezione con i vari bottoni colorati  */
+.side_button{
+    width: 53px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+}
+#editorial{
+    background-color: blueviolet;
+    
+    
+}
+#q1Goal{
+     background-color: blue;
+}
+#recruiting{
+    background-color: red;
+}
+#mobile{
+    background-color: yellow;
+}
+#website{
+    background-color: green;
+}
+#sales{
+    background-color: orange;
 }
