@@ -26,11 +26,46 @@ main{
     margin: 30px auto 10px;
     max-width: 1000px;
     padding: 10px;
+    border-radius: 10px;
 }
 .box{
    margin: 20px 30px; 
 }
-.top{
+.box_top{
     padding: 10px;
     margin: 5px 30px 2px;
+}
+.box_title{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* prima parte dei bottoni colorati  */
+.blue{
+    background-color: rgb(134, 134, 248);
+    
+}
+.blue_add{
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    padding: 12px;
+    background-color: rgb(134, 134, 247);
+    color: white;
+    border-radius: 10px;
+}
+.white_add{
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    padding: 10px;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid antiquewhite;
+}
+.true{
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
 }
