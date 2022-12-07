@@ -62,7 +62,10 @@ main{
 
 
 /* seconda parte con le liste  */
-
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
 li{
     text-decoration: none;
     padding: 5px;
@@ -71,13 +74,20 @@ li{
 span{
     vertical-align: middle;
 }
+.icon{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 2px solid currentColor;
+    border-radius:  50%; 
+    text-align: center;
+    /* in questo caso se la width o la height fossero state piu grandi avrei dovuto utilizzare line height per posizionare in modo corretto a livello orizzontale  */
+}
 .false{
     color: red;
 }
 .true{
-    border: 2px solid green;
     color: green;
-    border-radius:5px; ;
 }
 
 /* sezione con i vari bottoni colorati  */
@@ -94,9 +104,7 @@ span{
     padding: 2px;
 }
 #editorial{
-    background-color: blueviolet;
-    
-    
+    background-color: blueviolet;   
 }
 #q1Goal{
      background-color: blue;
